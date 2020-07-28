@@ -1,0 +1,14 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve function",
+    "lambda-build": "netlify-lambda build function"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "netlify-lambda": "^1.6.3"
+  }
+}
